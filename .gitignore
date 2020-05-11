@@ -1,2 +1,6 @@
+# Folder
 bower_components/
 node_modules/
+
+# Files
+package-lock.json
