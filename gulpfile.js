@@ -10,7 +10,9 @@ var concat       = require('gulp-concat');
   
 gulp.task('style', function () {
   return gulp.src([
+    // BASE
     'node_modules/bootstrap/scss/bootstrap.scss',
+    // THEME
     'assets/scss/style.scss'
   ])
 	.pipe(sourcemaps.init())
@@ -26,9 +28,12 @@ gulp.task('style', function () {
 gulp.task('script', function() {
 	return streamqueue({ objectMode: true },
       gulp.src([
+        // BASE
         'node_modules/jquery/dist/jquery.js',
         'node_modules/bootstrap/dist/js/bootstrap.js',
+        // PLUGIN
         'node_modules/sweetalert2/dist/sweetalert2.all.js',
+        // THEME
         'assets/js/**/*.js'
       ]),
 	)
