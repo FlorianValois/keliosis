@@ -4,7 +4,7 @@ Keliosis is a ready-to-use WP theme. All the files have been created to save you
 
 ## Installation
 
-1. Go to the theme folder "keliosis".
+1. Open your console and go to the theme folder "keliosis".
 
 2. Install npm packages.
 
