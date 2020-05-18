@@ -78,4 +78,4 @@ if (!defined('ABSPATH')) {
 
 <body <?php body_class(); ?>>
 
-<!-- Content here -->
+<?php wp_nav_menu( array( 'theme_location' => 'header_nav_menu', 'container' => 'nav' ) ); ?>
