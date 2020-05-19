@@ -18,7 +18,7 @@ get_header();
     <?php echo the_content(); ?>
   </section>
   
-<?php endwhile; // end of the loop. ?>
+<?php endwhile; ?>
 
 </main>
 <!-- End content -->
