@@ -3,7 +3,7 @@ if (!defined('ABSPATH')) {
 	exit;
 }
 
-/* Support des miniatures */
+// Support des miniatures
 
 if ( !function_exists( 'keliosis_widgets_init' ) )
 {
