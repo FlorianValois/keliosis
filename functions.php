@@ -6,5 +6,6 @@ if (!defined('ABSPATH')) {
 
 // WordPress -- Theme
 require_once 'inc/wp/theme/theme_support.inc.php';
+require_once 'inc/wp/theme/use_block_editor.inc.php';
 require_once 'inc/wp/theme/widgets.inc.php';
 require_once 'inc/wp/theme/wp_nav_menu.inc.php';
