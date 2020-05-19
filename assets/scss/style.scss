@@ -1,2 +1,9 @@
 // THEME -- Base
 @import 'theme/base/var';
+@import 'theme/base/body';
+
+// THEME -- Template
+@import 'theme/template/header';
+@import 'theme/template/footer';
+@import 'theme/template/page';
+@import 'theme/template/single';
