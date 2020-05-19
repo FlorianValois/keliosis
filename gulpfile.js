@@ -11,6 +11,8 @@ var concat       = require('gulp-concat');
 gulp.task('style', function () {
   return gulp.src([
     // BASE
+    'assets/scss/theme/base/reset.scss',
+    // PLUGIN
     'node_modules/bootstrap/scss/bootstrap.scss',
     // THEME
     'assets/scss/style.scss'
