@@ -10,11 +10,15 @@ get_header();
 <!-- Begin content -->
 <main role="main">
   
-  <h1><?php echo  the_title(); ?></h1>
-
+<?php while ( have_posts() ) : the_post(); ?>
+ 
+  <h1><?php echo the_title(); ?></h1>
+ 
   <section>
-    the_content();
+    <?php echo the_content(); ?>
   </section>
+  
+<?php endwhile; // end of the loop. ?>
 
 </main>
 <!-- End content -->
